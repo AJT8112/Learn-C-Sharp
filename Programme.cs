@@ -80,5 +80,32 @@ namespace Form
 }
 
 
+/* to change data we need a DATA TYPE CONVERSION!
+to do this in C# we cannot lose any data so can go from int to double but not double to int
+
+Implicit conversion happens automatically if on data will be lost
+Explicit conversion requires a cast operator for the conversion e.g. operator (int) 
+
+Also could use Convert.ToString() method */
+
+//Convert a string to an int using Convert.ToInt32().
+
+namespace FavoriteNumber
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // Ask user for fave number
+      Console.Write("Enter your favorite number!: ");
+
+      // Turn that answer into an int
+
+      int faveNumber = Convert.ToInt32(Console.ReadLine());
+
+
+    }
+  }
+}
 
 
