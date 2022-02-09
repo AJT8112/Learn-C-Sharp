@@ -108,4 +108,68 @@ namespace FavoriteNumber
   }
 }
 
+//Working with numbers using arithmetic operators and built-in methods.
+
+namespace Numbers
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // Number of pizza shops
+      int pizzaShops = 4332;
+
+      // Number of employees
+      int totalEmployees = 86928;
+
+      // Revenue
+      double revenue = 390819.28;
+
+      // Log the values to the console:
+
+      Console.WriteLine(pizzaShops);
+      Console.WriteLine(totalEmployees);
+      Console.WriteLine(revenue);
+
+   	}
+  }
+}
+
+// Using Operators
+
+namespace PlanetCalculations
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {  
+      // Your Age
+int userAge = 27;
+
+      // Length of years on Jupiter (in Earth years)
+double jupiterYears = 11.86;
+
+      // Age on Jupiter
+double jupiterAge = userAge / jupiterYears;
+
+      // Time to Jupiter
+double journeyToJupiter = 6.142466;
+
+      // New Age on Earth
+double newEarthAge = userAge + journeyToJupiter;
+
+      // New Age on Jupiter
+double newJupiterAge = newEarthAge / jupiterYears;
+
+      // Log calculations to console
+
+Console.WriteLine(userAge);
+Console.WriteLine(jupiterAge);
+Console.WriteLine(newEarthAge);
+Console.WriteLine(newJupiterAge);
+
+    }
+  }
+}
+
 
